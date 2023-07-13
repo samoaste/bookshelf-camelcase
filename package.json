@@ -5,7 +5,7 @@
   "main": "camelcase.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jpstone/bookshelf-camelcase.git"
+    "url": "git+ssh://git@github.com/samoaste/bookshelf-camelcase.git"
   },
   "keywords": [
     "bookshelf",
@@ -14,9 +14,9 @@
   "author": "jpstone",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jpstone/bookshelf-camelcase/issues"
+    "url": "https://github.com/samoaste/bookshelf-camelcase/issues"
   },
-  "homepage": "https://github.com/jpstone/bookshelf-camelcase#readme",
+  "homepage": "https://github.com/samoaste/bookshelf-camelcase#readme",
   "dependencies": {
     "lodash.camelcase": "~4.3.0",
     "lodash.snakecase": "~4.1.0"
