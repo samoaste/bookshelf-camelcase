@@ -1,6 +1,6 @@
 {
   "name": "bookshelf-camelcase-bee",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Convert column names to camelCase for gets and back to snake_case for sets",
   "main": "camelcase.js",
   "repository": {
@@ -22,20 +22,20 @@
     "lodash.snakecase": "~4.1.0"
   },
   "peerDependencies": {
-    "bookshelf": "~0.10.0"
+    "bookshelf": "git+https://github.com/bookbrainz/bookshelf.git#update-knex-2.4"
   },
   "devDependencies": {
-    "bookshelf": "~0.10.0",
-    "knex": "~0.11.0",
-    "mocha": "~2.5.0",
-    "mock-knex": "~0.3.0",
-    "sqlite3": "~3.1.0",
-    "unexpected": "~10.15.0"
+    "bookshelf": "git+https://github.com/bookbrainz/bookshelf.git#update-knex-2.4",
+    "knex": "~2.5.1",
+    "mocha": "~10.2.0",
+    "mock-knex": "~0.4.12",
+    "sqlite3": "~5.1.6",
+    "unexpected": "~12.0.5"
   },
   "scripts": {
     "test": "mocha camelcase.spec.js"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=14.0.0"
   }
 }
